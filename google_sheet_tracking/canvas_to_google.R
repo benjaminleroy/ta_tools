@@ -1,5 +1,11 @@
+# This script grabs desired information from canvas grades files and provide a 
+# new csv with students' Last Name, First Name, and Andrew ID
+#
+# Created by Ben LeRoy
+
 library(tidyverse)
-student_info<- read.csv("~/Downloads/23_Jan_17_56_Grades-46926.csv")
+student_info <- read.csv("~/Downloads/23_Jan_17_56_Grades-46926.csv") 
+## ^CHANGE ME ^##
 
 
 head(student_info)
@@ -23,5 +29,6 @@ student2 <- student %>% mutate(
 
 data_out = student2[,c("First","Last","Andrew_ID")]
 write.csv(data_out,file = "~/Desktop/cleaned_people.csv")
+## ^CHANGE ME^ ##
 
 
