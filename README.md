@@ -12,5 +12,7 @@ In the `google_sheet_tracking` folder we provide a basic `R` script to strip a C
 
 
 
+## Compiling a group of Rscripts.
 
+For a few coding classes (315 and 350?) it common for students to submit `.Rmd` files that need to be knitted. Instead of running all of these files by hand, the `rmd_rendering/render_hw.R` script provides a way to render all homework `.Rmd` files in a folder. Current implimentation looks for a few special bad lines of code, **ignores knitting if there is an html file already**, and opens zip files and goes inside to knit the `.Rmd` file if necessary.
 
