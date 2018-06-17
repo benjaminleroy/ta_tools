@@ -13,6 +13,9 @@ In the `google_sheet_tracking` folder we provide a basic `R` script to strip a C
 
 For a few coding classes (315 and 350?) it common for students to submit `.Rmd` files that need to be knitted. Instead of running all of these files by hand, the `rmd_rendering/render_hw.R` script provides a way to render all homework `.Rmd` files in a folder. Current implimentation looks for a few special bad lines of code, **ignores knitting if there is an html file already**, and opens zip files and goes inside to knit the `.Rmd` file if necessary.
 
+## Visualizing group preferences.
+The associated `R` file creates a visualization of the preferences of students as a interactive network. This was specifically designed for a class that collected student preferences using a google survey, where they were asked to select up to 3 other friends and up to 3 people they didn't wish to work with. We then piped these preferences into the script to create some visualization and the associated edges. Specifically used for 36-315 one semester.
+
 # Guides to Computing at CMU Statistics:
 
 1. Using `screen` on the server to allow for processes to run when you close the `ssh` session. This is actually in the `ssh.md` file, may add thoughts on `ssh`ing as well. Also note, `screen` is just 1 option. I know Nic Dalmasso uses another (assoicated with `python`).
