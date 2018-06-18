@@ -55,8 +55,18 @@ which has the steps:
 Then when installing:
 
 a. First review license (ENTER)
+
 b. Approve license terms (yes)
+
 c. Accept location of creation (ENTER)
+
 d. Say (yes) to use the `conda` command
+
 e. then `source ~/.bashrc`
+
 f. check `conda` is working with `conda list`
+
+
+
+## Note
+For some reason I've had to `source ~/.bashrc` multiple times when I start a session
