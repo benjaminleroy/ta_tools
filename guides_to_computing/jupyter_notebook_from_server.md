@@ -25,3 +25,6 @@ to login with a token:
 
 Copy this address but substitute `8889` with `8888` on your local machine's web server. If you want to make this easier in the future try `localhost:8888` and follow recommendations (I have not done this - maybe also make some comments and send them to me).
 
+## Jupyter Notebook Extensions
+
+I really like jupyter notebook extensions. Follow the brief instructions on [github](https://github.com/ipython-contrib/jupyter_contrib_nbextensions) to set it up. This [site](http://jupyter-contrib-nbextensions.readthedocs.io/en/latest/) has a description of the add-ons. I personally find `Scratchpad` very useful.
