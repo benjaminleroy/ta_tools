@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 # Conda
 Though I used to not think Conda was worthwhile, here's how I set it up on an virtual env:
 
