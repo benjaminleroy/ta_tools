@@ -1,4 +1,4 @@
-# Using Screen on the Server
+# Using Screen on the Server (can also use `nohup` instead)
 
 Commonly used commands:
 
