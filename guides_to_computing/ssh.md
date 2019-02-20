@@ -7,7 +7,6 @@ Commonly used commands:
 3. re-open a screen: `screen -r (session name)`
 4. exiting screen: `Control-A D`
 5. Killing a screen: `screen -XS (session name) quit`
-6. Kill all screens: `screen -X quit`
 
 reference: http://www.pixelbeat.org/lkdb/screen.html
 
@@ -36,6 +35,18 @@ It sucks, but you can use `vim`
 **Q: how do I run an R file on the server?**
 
 `Rscript filename.R (parameters after)`
+
+
+*To use parameters, in your `R` file you'll want to do something like the following in your code:*
+```{r}
+args <- commandArgs(trailingOnly = TRUE)
+if (length(args) > 0) {
+  first_parameter <- args[1]
+  second_parameter <- args[2]
+  ...
+}
+```
+*and run the code `Rscript filename.R first_parameter second_parameter ...` 
 
 OR
 
