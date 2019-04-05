@@ -51,3 +51,6 @@ if (length(args) > 0) {
 OR
 
 `R CMD BATCH filename.R`
+
+**Q: What servers can I use?**
+see http://stat.cmu.edu/computing/computation
