@@ -12,7 +12,7 @@ reference: http://www.pixelbeat.org/lkdb/screen.html
 
 
 
-# Question from Lovely Fourth Year (Feb, 2019)
+# Question from Fellow Students (Feb, 2019 & April, 2019)
 
 **Q: How to check if someone else is using server:**
 
@@ -53,4 +53,15 @@ OR
 `R CMD BATCH filename.R`
 
 **Q: What servers can I use?**
+
 see http://stat.cmu.edu/computing/computation
+
+**Q: How do I get the server specs?**
+
+Below is a quotation from Carl:
+
+>  For linux, you can often find most of the information you need in the /proc directory.  For any particular server, you can run:
+>
+> cat /proc/meminfo
+>
+> cat /proc/cpuinfo
