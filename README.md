@@ -22,4 +22,6 @@ The associated `R` file creates a visualization of the preferences of students a
 
 2. Setting up virtual environments (for `python`) on the server. This is included in `virtual_env_and_conda_on_server.md`. Additionally this file also provides how to put `conda` on an virtual environment on the server.
 
-3. Running a jupyter notebook (for `python`, but you can also do more to get `R` on a jupyter notebook) from the server. This is included in `jupyter_notebook_from_server.md`. Note this assumes you have a jupter notebook on the server, which I set up using a virtual env and conda (see \#2)
+3. Setting up virtual environments (for `R`) on the server. This is included in `renv_r_package_management.md`. 
+
+4. Running a jupyter notebook (for `python`, but you can also do more to get `R` on a jupyter notebook) from the server. This is included in `jupyter_notebook_from_server.md`. Note this assumes you have a jupter notebook on the server, which I set up using a virtual env and conda (see \#2)
